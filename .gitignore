@@ -1,0 +1,15 @@
+.cache/
+.vscode/
+build/
+pics/
+*.exr
+*.csv
+*.xlsx
+*.ttf
+*.log
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+__pycache__/
+scene_files/

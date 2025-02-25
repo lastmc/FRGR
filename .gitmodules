@@ -1,0 +1,7 @@
+[submodule "ext/cxxopts"]
+	path = ext/cxxopts
+	url = git@github.com:jarro2783/cxxopts.git
+[submodule "ext/compute"]
+	path = ext/compute
+	url = git@github.com:LuisaGroup/LuisaCompute.git
+	branch = next
