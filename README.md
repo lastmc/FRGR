@@ -38,3 +38,25 @@ build/bin/main.exe -i color.exr --image_pt color_pt.exr -v var.exr --var_pt var_
 An example scene is provided in `example-scenes/kitchen`. The example scene is 64spp, thus the folder path is `example-scenes/kitchen/64spp`. The `spp` parameter is provided by `-s`.
 
 Set the `--output` flag to choose where to save the output file. Also, the enhanced gradients are outputed to `example-scenes/kitchen/outputs` in the provided example.
+
+## Citation
+
+To cite us, you can use the following bibtex entry.
+
+```bibtex
+@inproceedings{10.1145/3680528.3687568,
+author = {Yan, Difei and Zheng, Shaokun and Yan, Ling-Qi and Xu, Kun},
+title = {Filtering-Based Reconstruction for Gradient-Domain Rendering},
+year = {2024},
+isbn = {9798400711312},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3680528.3687568},
+doi = {10.1145/3680528.3687568},
+booktitle = {SIGGRAPH Asia 2024 Conference Papers},
+articleno = {69},
+numpages = {10},
+keywords = {Gradient-Domain Rendering, Reconstruction, Optimization},
+series = {SA '24}
+}
+```
