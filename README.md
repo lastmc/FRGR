@@ -27,7 +27,7 @@ vcpkg install opencv[contrib,openexr]:x64-windows
 cmake -S . -B build
 cmake --build build
 ```
-The built executable shoule be in folder `build/bin`
+The built executable should be in folder `build/bin`
 ## Run
 
 An example run script is:
@@ -37,4 +37,4 @@ build/bin/main.exe -i color.exr --image_pt color_pt.exr -v var.exr --var_pt var_
 
 An example scene is provided in `example-scenes/kitchen`. The example scene is 64spp, thus the folder path is `example-scenes/kitchen/64spp`. The `spp` parameter is provided by `-s`.
 
-Set the `--output` flag to choose where to save the output file. Also, the enhanced gradients are outputed at `example-scenes/kitchen/outputs` in the provided example.
+Set the `--output` flag to choose where to save the output file. Also, the enhanced gradients are outputed to `example-scenes/kitchen/outputs` in the provided example.
